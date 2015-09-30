@@ -1,0 +1,54 @@
+html {
+	background-color:#28439B;
+	background-image:url(/Resources/neutralbackground.jpg);
+	background-position:left top;
+	background-repeat:repeat;
+}
+body {
+	margin: 20px;
+}
+.vst-page-header {
+	max-width:1200px;
+	margin: auto;
+    color:white;
+    vertical-align:middle;
+    position: relative; 
+    height: 0px; 
+    /*width: 500px; */
+    border-bottom: 60px solid #E5B628; 
+    border-right: 60px solid transparent; 
+}
+.vst-page-header h1, .vst-page-header span {
+    padding-left:5px;
+	margin:0px;
+}
+.vst-page-header a { color:white; }
+
+.Content-Box {
+	max-width:1200px;
+	margin:20px auto 20px auto;
+	padding:20px;
+	background-color:white;
+	border-color:#E5B628;
+	border-style:solid;
+	border-width:10px;
+}
+.Content-Box h1 {
+	margin:0px;
+}
+.Content-Box h2 {
+	margin-bottom:0px;
+}
+.Content-Box p {
+	margin:0px;
+}
+.Content-Box .Page-Center {
+	text-align:center
+}
+.Content-Box .Table-Center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.Content-Box .Table-Center > tbody > tr {
+	text-align: center;
+}
