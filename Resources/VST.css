@@ -6,6 +6,12 @@ html {
 }
 body {
 	margin: 20px;
+	min-width: 500px;
+}
+@media (max-width: 550px) {
+	body {
+		margin:auto;
+	}
 }
 .vst-page-header {
 	max-width:1200px;
@@ -13,10 +19,16 @@ body {
     color:white;
     vertical-align:middle;
     position: relative; 
-    height: 0px; 
-    /*width: 500px; */
+    height: 0px;
     border-bottom: 60px solid #E5B628; 
     border-right: 60px solid transparent; 
+}
+@media (max-width: 550px) {
+	.vst-page-header {
+		border: medium none;
+		height: auto;
+		background-color: #E5B628; 
+	}
 }
 .vst-page-header h1, .vst-page-header span {
     padding-left:5px;
